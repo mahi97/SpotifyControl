@@ -165,7 +165,24 @@ on run argv
         if repeating then set info to info & "\n Repeat is on."
       end tell
       return info
+    -- Drake
+    else if command is equal to "drake" then
+      
+      repeat while true
+      tell application "Spotify"
+      set nM to round (player position / 60) rounding down
+      set nS to round (player position mod 60) rounding down
+      set myArtist to artist of current track as text
+        if nM as text is equal to "0"
+          if myArtist is equal to "Drake"
+                tell application "Spotify" to next track
+          end if
+        end if
+        end tell
+
+      end repeat
     end if
+
 
     tell application "Spotify"
       delay 0.1
