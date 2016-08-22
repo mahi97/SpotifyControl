@@ -33,6 +33,9 @@ ln -s $(pwd)/SpotifyControl /usr/local/bin/spotify
 
 ## Usage
 
+* while playing a playlist use `spotify drake` to skip all drake music !
+
+
 * To start Spotify playback, type `spotify start` or `spotify play`. 
 If you do this locally and Spotify is not running, it will start. 
 Remotely, Spotify will not start properly. Optionally, pass a Spotify URI as a second argument.

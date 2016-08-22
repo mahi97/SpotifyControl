@@ -16,6 +16,7 @@ on run argv
     set msg to msg & "  volume N           - Set Volume to N (0...100)\n"
     set msg to msg & "  increasevolume N   - Increment Volume by N (0...100)\n"
     set msg to msg & "  decreasevolume N   - Decrement Volume by N (0...100)\n"
+    set msg to msg & "  drake              - Skip All Drake Songs !\n"
     return msg
   end if
   set command to item 1 of argv
