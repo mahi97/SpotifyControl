@@ -14,6 +14,7 @@ This pretty much covers everything the AppleScript hooks of Spotify
 allow.
 
 ### Tested Platforms (Spotify 1.0.36.124)
+
 * OS X El Captian (10.11)
 * OS X Yosemite (10.10)
 * OS X Mavericks (10.9)
