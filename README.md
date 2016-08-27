@@ -1,5 +1,6 @@
 # Control Spotify at OS X Terminal
 
+
 An AppleScript for controlling Spotify through a terminal:
 
 ```
