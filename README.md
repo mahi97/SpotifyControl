@@ -33,7 +33,6 @@ ln -s $(pwd)/SpotifyControl /usr/local/bin/spotify
 ```
 
 
-
 ## Usage
 
 * To start Spotify playback, type `spotify start` or `spotify play`. 
