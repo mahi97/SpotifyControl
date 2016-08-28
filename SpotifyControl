@@ -22,7 +22,6 @@ on run argv
 
   set waitFlag to false 
 
-
   if count of argv is equal to 0 then
     return msg
   end if
@@ -216,11 +215,7 @@ on run argv
       repeat while waitFlag
         set nS to round (player position / 1) rounding down
         if nS as text is less than 3 then
-<<<<<<< d4cc4295261125cf2d02b331cab0a4c6849e2b7f
           set waitFlag to false
-=======
-          set flag to false
->>>>>>> minor bug fixed
         end if
       end repeat
       set shuf to ""
