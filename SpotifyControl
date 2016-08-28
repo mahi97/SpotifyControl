@@ -22,6 +22,7 @@ on run argv
 
   set waitFlag to false 
 
+
   if count of argv is equal to 0 then
     return msg
   end if
